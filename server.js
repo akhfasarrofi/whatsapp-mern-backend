@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(cors());
 
 /* DB Config */
-const connection_url = "mongodb://admin:PK0uVTkGR3tcXE7c@cluster0-shard-00-00.nifqq.mongodb.net:27017,cluster0-shard-00-01.nifqq.mongodb.net:27017,cluster0-shard-00-02.nifqq.mongodb.net:27017/whatsappdb?ssl=true&replicaSet=atlas-e8qtk0-shard-0&authSource=admin&retryWrites=true&w=majority"
+const connection_url = "KONEKSI MONGGODB ANDA"
 
 mongoose.connect(connection_url, {
     useNewUrlParser: true,
