@@ -10,11 +10,7 @@ const port = process.env.port || 9000
 
 /* connect to pusher */
 const pusher = new Pusher({
-    appId: '1076931',
-    key: '7a291a4936c17b234c4f',
-    secret: '927cce3c5ac49b11704a',
-    cluster: 'ap1',
-    encrypted: true
+    /* API PUSHER ANDA */
 });
 
 /* middleware */
